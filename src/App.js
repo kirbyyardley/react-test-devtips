@@ -33,7 +33,7 @@ class Playlist extends Component {
     return (
       <div style={{...defaultStyle, display: "inline-block", width: "25%"}}>
         <img/>
-        <h3>Playlist Name</h3> 
+        <h3>Playlist Name</h3>
         <ul>
           <li>Song 1</li><li>Song 3</li><li>Song 4</li><li>Song 5</li><li>Song 6</li>
         </ul>
@@ -46,7 +46,7 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-        <h1>Title</h1>
+        <h1 style={{...defaultStyle, 'font-size': '54px'}}>Title</h1>
         <Aggregate/>
         <Aggregate/>
         <Filter/>
