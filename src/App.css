@@ -1,6 +1,9 @@
+html, body {
+  background: #333;
+}
+
 .App {
   text-align: center;
-  background: gray;
 }
 
 .App .aggregate,
